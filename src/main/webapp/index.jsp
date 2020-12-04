@@ -5,10 +5,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>WEB APPLICATION</title>
+	<title>WEB APP LICATION</title>
 </head>
-<body>
-	<h1>Hello World!</h1>
+<body background="yellow">
+	<h1 align='center'>Hello World!</h1>
 	<c:if test="${not empty param.name}">
 		<p>Name: ${param.name}</p>
 	</c:if>
